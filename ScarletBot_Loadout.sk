@@ -1,0 +1,34 @@
+# Scarlet SMP - Private PvP Bot Loadout
+# Paper 1.21.11 | Skript
+# Bot username: ShadowMiner27
+# Command: /sm27
+# Permission: scarlet.botkit
+#
+# This command is locked to the exact bot username.
+# It does not clear the inventory. Re-running it can add another supply set.
+
+command /sm27:
+    permission: scarlet.botkit
+    permission message: &cYou cannot use this command.
+    trigger:
+        if name of player is not "ShadowMiner27":
+            stop
+
+        set helmet of player to netherite helmet
+        set chestplate of player to netherite chestplate
+        set leggings of player to netherite leggings
+        set boots of player to netherite boots
+
+        give 1 netherite sword to player
+        give 1 netherite pickaxe to player
+        give 1 netherite axe to player
+        give 1 bow to player
+        give 64 arrows to player
+        give 1 shield to player
+
+        give 3 totems of undying to player
+        give 64 cooked beef to player
+        give 16 golden apples to player
+        give 16 ender pearls to player
+
+        send "&c&lScarlet SMP &7» &aPrivate loadout equipped." to player
