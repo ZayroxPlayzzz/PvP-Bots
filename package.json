@@ -1,0 +1,20 @@
+{
+  "name": "scarlet-smp-one-bot",
+  "version": "2.2",
+  "description": "Scarlet SMP original dashboard bot with configurable auth, kit command and Mineflayer PvP support.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --check index.js",
+    "check": "node --check index.js"
+  },
+  "author": "Lamgerr",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1",
+    "minecraft-data": "^3.103.0",
+    "mineflayer": "^4.34.0",
+    "mineflayer-pathfinder": "^2.1.1",
+    "mineflayer-pvp": "^1.3.2"
+  }
+}

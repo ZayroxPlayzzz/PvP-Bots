@@ -1,0 +1,123 @@
+{
+  "name": "Scarlet SMP PvP Bot",
+  "bot-account": {
+    "username": "ShadowMiner27",
+    "password": "",
+    "type": "offline"
+  },
+  "server": {
+    "ip": "YOUR_SERVER_IP",
+    "port": 25565,
+    "version": "",
+    "try-creative": false
+  },
+  "position": {
+    "enabled": true,
+    "x": 0,
+    "y": 100,
+    "z": 0
+  },
+  "utils": {
+    "auto-auth": {
+      "enabled": true,
+      "password": "",
+      "registerCommand": "/register {registerPassword} {confirmPassword}",
+      "loginCommand": "/login {loginPassword}",
+      "commandDelayMs": 1500,
+      "registerFallbackMs": 7000,
+      "loginFallbackMs": 12000,
+      "registerPassword": "CHANGE_REGISTER_PASSWORD",
+      "loginPassword": "CHANGE_LOGIN_PASSWORD"
+    },
+    "anti-afk": {
+      "enabled": true,
+      "sneak": true
+    },
+    "chat-messages": {
+      "enabled": false,
+      "repeat": true,
+      "repeat-delay": 120,
+      "messages": [
+        "login umerking",
+        "Subscribe to Slobos!",
+        "I like to play Minecraft!"
+      ]
+    },
+    "chat-log": true,
+    "auto-reconnect": true,
+    "auto-reconnect-delay": 2000,
+    "max-reconnect-delay": 120000,
+    "after-auth-commands": [
+      "/spawn",
+      "/sm27",
+      "/rtp"
+    ],
+    "respawnKitCommand": "/sm27",
+    "respawnKitDelayMs": 3500
+  },
+  "movement": {
+    "enabled": true,
+    "circle-walk": {
+      "enabled": true,
+      "radius": 4,
+      "speed": 3000
+    },
+    "look-around": {
+      "enabled": true,
+      "interval": 5000
+    },
+    "random-jump": {
+      "enabled": true,
+      "interval": 10000
+    }
+  },
+  "modules": {
+    "avoidMobs": true,
+    "combat": true,
+    "beds": false,
+    "chat": true,
+    "console-commands": true,
+    "playerPvp": true
+  },
+  "combat": {
+    "attack-mobs": true,
+    "auto-eat": true
+  },
+  "beds": {
+    "pick-up-day": false,
+    "place-night": false
+  },
+  "discord": {
+    "enabled": false,
+    "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
+    "events": {
+      "connect": true,
+      "disconnect": true,
+      "chat": false
+    }
+  },
+  "chat": {
+    "respond": true
+  },
+  "playerPvp": {
+    "enabled": true,
+    "retaliateRange": 8,
+    "attackRange": 3.2,
+    "stopRange": 32,
+    "excludePlayers": [
+      "ShadowMiner27",
+      "EndRavager",
+      "VoidStriker",
+      "NetherVex",
+      "ShadowClaw",
+      "RiftHunter",
+      "FrostReaper",
+      "CrimsonFang",
+      "NightWarden",
+      "EmberKnight",
+      "ObsidianWolf"
+    ],
+    "targetMode": "attack_on_sight",
+    "detectionRange": 24
+  }
+}
