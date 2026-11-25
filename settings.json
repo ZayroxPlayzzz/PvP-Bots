@@ -2,13 +2,13 @@
   "name": "Scarlet SMP PvP Bot",
   "bot-account": {
     "username": "ShadowMiner27",
-    "password": "",
+    "password": "umerking",
     "type": "offline"
   },
   "server": {
-    "ip": "YOUR_SERVER_IP",
-    "port": 25565,
-    "version": "",
+    "ip": "scarletsmp.info.gf",
+    "port": 26139,
+    "version": "1.21.11",
     "try-creative": false
   },
   "position": {
@@ -20,14 +20,14 @@
   "utils": {
     "auto-auth": {
       "enabled": true,
-      "password": "",
-      "registerCommand": "/register {registerPassword} {confirmPassword}",
-      "loginCommand": "/login {loginPassword}",
+      "password": "umerking",
+      "registerCommand": "/register umerking umerking",
+      "loginCommand": "/login umerking",
       "commandDelayMs": 1500,
       "registerFallbackMs": 7000,
       "loginFallbackMs": 12000,
-      "registerPassword": "CHANGE_REGISTER_PASSWORD",
-      "loginPassword": "CHANGE_LOGIN_PASSWORD"
+      "registerPassword": "umerking",
+      "loginPassword": "umerking"
     },
     "anti-afk": {
       "enabled": true,
@@ -38,9 +38,9 @@
       "repeat": true,
       "repeat-delay": 120,
       "messages": [
-        "login umerking",
-        "Subscribe to Slobos!",
-        "I like to play Minecraft!"
+        "",
+        "",
+        ""
       ]
     },
     "chat-log": true,
